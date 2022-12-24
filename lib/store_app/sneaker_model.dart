@@ -11,6 +11,9 @@ class SneakerModel {
       required this.discount,
       required this.images});
 
+
+
+
   List dummyData = <SneakerModel>[
     SneakerModel(
         companyName: 'SNEAKER COMPANY',
@@ -40,3 +43,21 @@ class SneakerModel {
         ])
   ];
 }
+List<Map<String, String>> thumbnails = [
+  {
+    "thumbnails": "assets/image/image-product-1-thumbnail.jpg",
+    "image": "assets/image/image-product-1.jpg"
+  },
+  {
+    "thumbnails": "assets/image/image-product-2-thumbnail.jpg",
+    "image": "assets/image/image-product-2.jpg"
+  },
+  {
+    "thumbnails": "assets/image/image-product-3-thumbnail.jpg",
+    "image": "assets/image/image-product-3.jpg"
+  },
+  {
+    "thumbnails": "assets/image/image-product-4-thumbnail.jpg",
+    "image": "assets/image/image-product-4.jpg"
+  }
+];

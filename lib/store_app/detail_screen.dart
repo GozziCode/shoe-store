@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-
-import 'main_screen.dart';
+import '../store_app/sneaker_model.dart';
 
 class DetailScreen extends StatelessWidget {
   const DetailScreen({super.key});
